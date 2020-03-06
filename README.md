@@ -22,6 +22,7 @@ This graph breaks down the contribution of each parameter that contributed to th
 
 
 
+
 ## Output:
 step 0 - ELBO 5855.15185546875<br>
 step 20 - ELBO 4566.06640625<br>
@@ -35,12 +36,10 @@ step 160 - ELBO 4342.306640625<br>
 step 180 - ELBO 4336.9990234375<br>
 step 200 - ELBO 4337.12060546875<br>
 
-*Inferred parameters:*
-
+*Inferred parameters:*<br>
 observation_noise_scale: 4.243539333343506 +- 0.08322174847126007<br>
 day_of_week_effect/_drift_scale: 0.13437619805335999 +- 0.0468049980700016<br>
 month_of_year_effect/_drift_scale: 3.5961546897888184 +- 0.43267887830734253<br>
 autoregressive/_coefficients: [0.1635988] +- [0.3852669]<br>
 autoregressive/_level_scale: 0.3180446922779083 +- 0.2202991545200348<br>
-
 
