@@ -3,10 +3,10 @@ The following code is based on the article: https://medium.com/tensorflow/struct
 This was before I started learning about machine learning and the Tensorflow framework, so the core of the code is from the article.  I wrote code to import data for the demand of an item of a store from Kaggle, and took a small portion of it to do forecasting using Tensorflow Probability.  The model took into account day of the week and month of the year and autoregressive components as its parameters.
 
 
-##Demand Data##
+##Demand Data
 ![Demand Data](relative/Diagrams/Data_Graph.png?raw=true "Demand Data")
 
-##Forecast##
+##Forecast
 
 
 
@@ -15,7 +15,7 @@ Shaded orange region: +- 2 standard deviations of the forecast
 Solid blue line: Actual data
 
 
-##Components##
+##Components
 
 
 This graph breaks down the contribution of each parameter that contributed to the forecasting model.
