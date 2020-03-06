@@ -40,7 +40,7 @@ ax.plot(demand_dates[:-num_forecast_steps], demand[:-num_forecast_steps], lw=0.5
 ax.xaxis.set_major_locator(demand_loc)
 ax.xaxis.set_major_formatter(demand_fmt)
 ax.set_ylabel("Daily demand")
-ax.set_xlabel("Day")
+ax.set_xlabel("Date")
 fig.suptitle("Daily Demand of Store Item", fontsize=15)
 fig.autofmt_xdate()
 plt.show()

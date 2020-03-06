@@ -46,9 +46,10 @@ def plot_forecast(x, y,
   ax.legend()
 
   if x_locator is not None:
-    ax.xaxis.set_major_locator(x_locator)
-    ax.xaxis.set_major_formatter(x_formatter)
-    fig.autofmt_xdate()
+      ax.xaxis.set_major_locator(x_locator)
+      ax.xaxis.set_major_formatter(x_formatter)
+  fig.autofmt_xdate()
+  fig.tight_layout()
 
   return fig, ax
 
@@ -75,6 +76,7 @@ def plot_components(dates,
                      component_mean+2*component_stddev,
                      color=c2, alpha=0.5)
     ax.set_title(component_name)
+    ax.set_ylabel("Daily demand")
     if x_locator is not None:
       ax.xaxis.set_major_locator(x_locator)
       ax.xaxis.set_major_formatter(x_formatter)
