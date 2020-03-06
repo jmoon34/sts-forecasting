@@ -4,7 +4,7 @@ This was before I started learning about machine learning and the Tensorflow fra
 
 
 ##Demand Data
-![Demand Data](relative/Diagrams/Data_Graph.png?raw=true "Demand Data")
+![Demand Data](/Diagrams/Data_Graph.png?raw=true "Demand Data")
 
 ##Forecast
 
